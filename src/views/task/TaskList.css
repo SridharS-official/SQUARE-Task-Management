@@ -1,0 +1,352 @@
+/* TaskList.css */
+
+.task-list-container {
+    margin-top: 20px;
+  }
+  
+  .task-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-input {
+    width: 300px;
+  }
+  
+  .add-button {
+    margin-right: 20px;
+  }
+  
+  .recycle-bin-button {
+    margin-left: 10px;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .sortable-column {
+    cursor: pointer;
+  }
+  
+  .sort-icon {
+    margin-left: 9px;
+    font-size: 16px;
+    transition: transform 2.4s ease;
+  }
+  
+  .sort-icon.asc {
+    transform: rotate(180deg);
+  }
+  
+  .pagination {
+   
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Example priority colors */
+  .priority-highest {
+    color: red;
+  }
+  
+  .priority-high {
+    color: orange;
+  }
+  
+  .priority-medium {
+    color: blue;
+  }
+  
+  .priority-low {
+    color: green;
+  }
+  
+  .priority-lowest {
+    color: lightgreen;
+  }
+  .sort-column:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .sort-active {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .sort-icon {
+    vertical-align: middle;
+  }
+  
+  .sort-icon-up {
+    color: green;
+    
+  }
+  
+  .sort-icon-down {
+    color: red;
+  }
+  .task-bar {
+    position: absolute;
+    left: 260px;
+    bottom: 0px;
+    width:  calc(100% - 280px);
+   
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+    background-color:#ede7f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .task-bar.show {
+    height: 60px; 
+  }
+  .task-bar-icon {
+  
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+  margin-top: 6px;
+ margin-right: 20PX;
+  }
+  
+ 
+  
+  .selected-count {
+    cursor: pointer;
+   /* margin-left: 10px; */
+    color: #5e35b1;
+   /* margin-top: 17px; */
+   PADDING-left: 20px;
+
+  }
+  .task-details-container {
+   padding: 20px;
+    
+  }
+  
+  .task-details {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+    
+  }
+  
+  .task-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .task-details p {
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  
+  .command-box {
+    margin-top: 20px;
+  }
+  
+  .command-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .command-textarea {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    resize: vertical;
+    margin-bottom: 10px;
+  }
+  .submit-button-add{
+    background-color: #5e35b1;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 130px;
+  }
+  
+  .submit-button {
+    background-color: #5e35b1;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80px;
+    
+  }
+  
+  .colon-dets{
+    position:absolute;
+    left: 500px;
+  }
+  .colon-det{
+    position: absolute;
+    left: 520px;
+  }
+  
+ 
+  
+  .command-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* .command-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+   */
+  .command-text {
+    flex-grow: 1; 
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    color: #5e35b1;
+    transition: color 0.3s ease;
+   
+  }
+  
+  .delete-icon:hover {
+    color: #5e35b1;
+  }
+  .tablecell-hover:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .file-input {
+   
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+   
+  }
+  .file-input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+
+  }
+  
+  .selected-file {
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .selected-file p {
+    margin: 0;
+    font-weight: bold;
+
+  }
+  .selected-image {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  input[type="checkbox"].checkbox-color:checked + span::before {
+    border-color: #5e35b1;
+    background-color: #5e35b1;
+  }
+
+  input[type="checkbox"].checkbox-color:hover + span::before {
+    border-color: #5e35b1;
+  }
+
+  input[type="checkbox"].checkbox-color:focus + span::before {
+    box-shadow: 0 0 0 3px rgba(94, 53, 177, 0.2);
+  }
+  
+
+  input[type="checkbox"].checkbox-color:active + span::before {
+    background-color: #5e35b1;
+  }
+  
+ .checkbox-color{
+ color: #5e35b1;
+ }
+ 
+ .Heading-taskdetails{
+  color: #364152;
+    font-size:16px;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+ }
+.split-details{
+  padding-left: 20px;
+}
+.alignsemi{
+  text-align: left;
+  display: flex;
+ justify-content: space-between;
+  
+}
+.tablecell-hover {
+  height: 60px; 
+  padding:10px; 
+  font-size: 14px;
+}
+.table-head {
+  padding: 10px; /* Adjust the padding value as per your requirement */
+  font-size: 14px;
+  height: 30px; /* Adjust the font size value as per your requirement */
+}
+
+.table-row {
+  padding: 10px; /* Adjust the padding value as per your requirement */
+  font-size: 14px;
+  height: 30px; /* Adjust the font size value as per your requirement */
+}
+.colon-det-people{
+  position: absolute;
+ right: 260px;
+
+}
+.colon-{
+position: absolute;
+right: 330px;
+
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.submit-cancel{
+display: inline;
+}
+.save-nextline{
+  display: block;
+}
+.save-nextline{
+  display: block;
+}
+.Attachment{
+  display: none;
+}

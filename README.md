@@ -1,2 +1,1 @@
-# SQUARE-Task-Management
-SNS SQUARE Task Management Tool
+# HRM-template

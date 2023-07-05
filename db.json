@@ -1,0 +1,238 @@
+{
+  "projects": [
+    {
+      "name": "E-Commerce",
+      "lead": "Paul",
+      "scrum": "Bala",
+      "status": "In-progress",
+      "description": "E-Commerce Website",
+      "powner": "Prem",
+      "memb": [
+        "Ajay",
+        "Deva"
+      ],
+      "id": 1
+    },
+    {
+      "name": "Test",
+      "lead": "Deva",
+      "scrum": "Prem",
+      "status": "In-progress",
+      "description": "Abt",
+      "powner": "Prem",
+      "memb": [
+        {
+          "name": "Deva",
+          "role": "Software Associate"
+        },
+        {
+          "name": "Ajay",
+          "role": "Software Associate"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "new",
+      "lead": "Deva",
+      "scrum": "Ajay",
+      "status": "Not-Started",
+      "description": "Abt",
+      "powner": "Ajay",
+      "memb": [
+        {
+          "name": "Deva",
+          "role": "Software Associate"
+        },
+        {
+          "name": "Ajay",
+          "role": "Software Associate"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "Tool",
+      "lead": "Deva",
+      "scrum": "Ajay",
+      "status": "Not-Started",
+      "description": "to do the project",
+      "powner": "Ajay",
+      "memb": [
+        {
+          "name": "Prem",
+          "role": "HR"
+        },
+        {
+          "name": "Deva",
+          "role": "Software Associate"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "Web app",
+      "lead": "Ajay",
+      "scrum": "Deva",
+      "status": "Completed",
+      "description": "complete it",
+      "powner": "Ajay",
+      "memb": [
+        {
+          "name": "Deva",
+          "role": "Software Associate"
+        },
+        {
+          "name": "Prem",
+          "role": "HR"
+        }
+      ],
+      "id": 8
+    }
+  ],
+  "employees": [
+    {
+      "name": "Deva",
+      "role": "Software Associate"
+    },
+    {
+      "name": "Ajay",
+      "role": "Software Associate"
+    },
+    {
+      "name": "Prem",
+      "role": "HR"
+    }
+  ],
+  "users": [
+    {
+      "firstname": "ajay",
+      "lastname": "b",
+      "email": "ajay@gmail.copm",
+      "password": "sadd",
+      "id": 1,
+      "role": "user"
+    },
+    {
+      "firstname": "ajay",
+      "lastname": "b",
+      "email": "ajay@gmail.com",
+      "password": "123544",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "firstname": "asas",
+      "lastname": "ajay",
+      "email": "ajau@gmail.com",
+      "password": "55555",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "firstname": "hhh",
+      "lastname": "b",
+      "email": "ajay@gmail.com",
+      "password": "558555",
+      "role": "user",
+      "id": 4
+    }
+  ],
+  "EmployeeForm": [
+    {
+      "name": "Kishore",
+      "lastname": "m",
+      "company": "SNS SQUARE",
+      "dept": "HR",
+      "desi": "Data Analyst",
+      "mail": "ksr@gmail.com",
+      "mob": "7412365890",
+      "join": "2023-06-13",
+      "report": "Jothi Mani",
+      "dob": "2023-06-30",
+      "type": "Contract work",
+      "id": 1
+    },
+    {
+      "name": "Sanjay",
+      "lastname": "A",
+      "company": "SNS SQUARE",
+      "dept": "Technical",
+      "desi": "Data Analyst",
+      "mail": "siva@gmail.com",
+      "mob": "789456123",
+      "join": "2023-06-10",
+      "report": "Jothi Mani",
+      "dob": "2023-06-16",
+      "type": "Internship",
+      "id": 2
+    },
+    {
+      "name": "Sivamani",
+      "lastname": "A",
+      "company": "SNS SQUARE",
+      "dept": "Technical",
+      "desi": "Software Developer",
+      "mail": "siva@gmail.com",
+      "mob": "789456123",
+      "join": "2023-06-10",
+      "report": "Jothi Mani",
+      "dob": "2023-06-16",
+      "type": "Internship",
+      "id": 3
+    },
+    {
+      "name": "surya",
+      "lastname": "A",
+      "company": "SNS SQUARE",
+      "dept": "Technical",
+      "desi": "Software Developer",
+      "mail": "siva@gmail.com",
+      "mob": "789456123",
+      "join": "2023-06-10",
+      "report": "Jothi Mani",
+      "dob": "2023-06-16",
+      "type": "Full Time",
+      "id": 4
+    }
+  ],
+  "task": [
+    {
+      "id": "f0f60c40-1ac0-43a6-9c86-a5044290b29d",
+      "project": "Project 2",
+      "taskname": "creatwe table",
+      "issueType": "QA Task",
+      "summary": "qwe",
+      "reporter": "Gayathri",
+      "assignee": "Priya",
+      "priority": "High",
+      "description": "reh",
+      "due": "2023-06-30"
+    },
+    {
+      "id": "d8f654b0-2374-4cad-a90b-8a69f3150f45",
+      "project": "Project 1",
+      "taskname": "zAz",
+      "issueType": "QA Task",
+      "summary": "efreqr",
+      "reporter": "Priya",
+      "assignee": "Gayathri",
+      "priority": "Highest",
+      "description": "efrrer",
+      "due": "2023-06-29"
+    },
+    {
+      "id": "8491e337-f5d7-44cc-bc8a-e2722eaad3fd",
+      "project": "Project 1",
+      "taskname": "E ded",
+      "issueType": "Bug",
+      "summary": "wfef",
+      "reporter": "Priya",
+      "assignee": "Priya",
+      "priority": "High",
+      "description": "wef",
+      "due": "2023-06-09"
+    }
+  ],
+  "recyclebin": []
+}
